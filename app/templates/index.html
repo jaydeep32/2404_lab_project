@@ -2,7 +2,34 @@
 {% block content %}
 <div class="container">
 
-    <h1 class="mt-5">Handwritten Digit Reorganization</h1>
+
+    <div class="jumbotron">
+        <h1 class="display-4">EMNIST Recognition</h1>
+        <p class="lead">Recognize handwritten letters and digits with the power of neural networks!</p>
+        <hr class="my-4">
+        <p>Explore the fascinating world of machine learning and pattern recognition.</p>
+    </div>
+
+    <div id="project-details">
+        <h2>Project Details</h2>
+        <p>
+            This project utilizes a neural network to recognize both handwritten letters and digits.
+            The model is trained on the EMNIST dataset, which includes a variety of characters.
+            The neural network architecture involves convolutional and dense layers to efficiently learn
+            patterns from the input images.
+        </p>
+        <p>
+            The training process is enhanced by callbacks such as ModelCheckpoint, EarlyStopping, and ReduceLROnPlateau.
+            These callbacks ensure the model's performance is optimized during training.
+        </p>
+        <p>
+            After training, the model is evaluated on a test dataset to assess its generalization performance.
+            Additionally, the project demonstrates predictions on random samples from the test data, showcasing the
+            model's ability to recognize handwritten characters.
+        </p>
+        <!-- Add more project details here -->
+    </div>
+
 
 </div>
 
