@@ -21,6 +21,8 @@ Tkinter library for building a GUI.
    so a total of 10 classes, with 7,000 images per class (6,000 train images and 1,000 test images) For benchmarking
    machine learning algorithms, learning-. For this purpose, the dataset is widely used.
 
+https://6ecb-142-189-220-29.ngrok-free.app
+
 -----
 
 - **Week 1:** Requirement gathering and Preprocess Data
